@@ -1,0 +1,1151 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		037EA92F32388260CDCC3E65698ADFDB /* CoFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1106101C8A8C0749BCA2FC5C96843F8D /* CoFuture.swift */; };
+		03CF75A5C095941A900E35DBBF0118E4 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C05BC75B79334FB28CA6751DE904A1FA /* Storage.swift */; };
+		06DC0544A876E0AB8BDFDE65322AEB40 /* CoChannelError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C82E5CE1B9F8CA0D65022964C5619BD /* CoChannelError.swift */; };
+		0916359D39DF92D53AF8C71D56C046CD /* _Channel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 612EBD704B8045AADE8BA7DD20D8E2EA /* _Channel.swift */; };
+		09905DC3F4EADF5524EDB373069C83AC /* CoScope.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABC7FBD7C6D96AF5B5BB96A67AC5900F /* CoScope.swift */; };
+		09EE1BC2A0CC6A033CB7F5C8F8080483 /* FrameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 660752C9084BF02DCE69874BE97CCEC9 /* FrameView.swift */; };
+		106D4D7146B7FCA99512B3AE5BB4B0CF /* CoFuturePublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 208376E20FC4C3741224C6E40A140C28 /* CoFuturePublisher.swift */; };
+		120CF9F491DA0D22CFA28DF5F36A52A2 /* FifoQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12040D1E952A1A523E40DD29AA34FB5B /* FifoQueue.swift */; };
+		1409D9CB66753D5C2E90FF9EA6B7AC40 /* PKHUDSquareBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03B45B8A695CE1E3F1A6162EBD2624CA /* PKHUDSquareBaseView.swift */; };
+		1A7DD0FE6CFAA552F5CABF15B638BAE6 /* CoroutineScheduler+DispatchQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41C713583C49A06B54521D26CC60ECA9 /* CoroutineScheduler+DispatchQueue.swift */; };
+		1E589D08CB276548953C9FF2A685F130 /* PKHUDSuccessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106E6E0360A57D9381B051FC3D2BC465 /* PKHUDSuccessView.swift */; };
+		247F9FAA2645972265DCF426671B3C5C /* CoCancellable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 29B5ECA75E1FA753A052219E62B12728 /* CoCancellable.swift */; };
+		27DD81A535982A5A00464D3B2A864BC6 /* URLSession+CoFuture.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC11AE0EE3585745014D1CBC2716FA2 /* URLSession+CoFuture.swift */; };
+		2936BC8262A5572F8A6DAB805F561403 /* CoChannelPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67285843C38E225B164CB095BE77BCFD /* CoChannelPublisher.swift */; };
+		2BD4D89B255487743A97FF7B34E09205 /* _CoChannelMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D0418E5873C6FD8D4756980D37DA4A1 /* _CoChannelMap.swift */; };
+		31C7DC10469D2F871AA4C6971D42E0A5 /* CoChannelReceiver.swift in Sources */ = {isa = PBXBuildFile; fileRef = F19FC64BB535C294F9A94719A829E24F /* CoChannelReceiver.swift */; };
+		333F62E2542F433813D4812D91EBC566 /* PKHUDAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = F70CDDE0BAC034A1F77AAA87BBAE8490 /* PKHUDAnimation.swift */; };
+		3344C710B5C44D67562BC4293513A75B /* SharedCoroutineDispatcher.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC0DDA71F2BD33A75EF82A552526AA1 /* SharedCoroutineDispatcher.swift */; };
+		37AE9C7F421984AA8C7B6AEFF69B0BEB /* PKHUDSystemActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 843E806043E52197BB12AC5D6ACA0568 /* PKHUDSystemActivityIndicatorView.swift */; };
+		38AAE93D6E8F9BC6A82B3F4DEA86880E /* CoFuture+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = E15D6ABE9054F6551E98AAB46182FEBA /* CoFuture+Combine.swift */; };
+		3916BAA25122E3F4639036C4745F5496 /* AtomicInt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 586FD115BD134661DB5947B3CAC9266C /* AtomicInt.swift */; };
+		3C75C890FCC563E88411A03E46721605 /* Pods-Renda10min-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = FEEC73AEEC557AA567A53BADEA4B669B /* Pods-Renda10min-dummy.m */; };
+		40164FE98E5710FDFBD96A267480AE82 /* CoChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF4064A2CAE8A5846BED1AF13402998B /* CoChannel.swift */; };
+		40F98C40500AEC6A3698944F7D34B3A6 /* _BufferedChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BED52B38509DCCC885AEDF0505CC1232 /* _BufferedChannel.swift */; };
+		42BE0FE120C46ACD08F40313ECF62602 /* PKHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 28A4C62F31525ADC0B414F58462C279B /* PKHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		43A3521E1FB1230D54985F3EE726E068 /* SwiftCoroutine-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F83EA668CE862639462E0876C4A13B51 /* SwiftCoroutine-dummy.m */; };
+		4491749D3F8808EA5FA0E05717A56EC3 /* CoroutineScheduler.swift in Sources */ = {isa = PBXBuildFile; fileRef = B295EDE5EA0D9C4D1A25E7C8EE3C571F /* CoroutineScheduler.swift */; };
+		47F2A54164B822DCC6A099ED3C6FE816 /* CoFuture2+map.swift in Sources */ = {isa = PBXBuildFile; fileRef = 143E5F32B3D63F3300768AF6F723C58D /* CoFuture2+map.swift */; };
+		4E5C6765B8F9DCD77E96420CCD0C8CAD /* SharedCoroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = C10A324728CA4B073524D1AA6C5AC781 /* SharedCoroutine.swift */; };
+		51EA12110B628BB2A3873A24B1BBC589 /* CoFuture4+whenComplete.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3217D67267511AC28BB66F7FB5F88A4C /* CoFuture4+whenComplete.swift */; };
+		54AFC6955D395E0B26A96691479988DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		54FD42113018F98BBC3F5CA782EF8E5D /* CoFuture3+flatMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 662A5743E3232C2172B2C5F03A61FBDE /* CoFuture3+flatMap.swift */; };
+		5B8E0518EE842922F5A03F19F0B22726 /* PKHUDWideBaseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5E95DBF0F89809DE73A8DF996FAE0D /* PKHUDWideBaseView.swift */; };
+		5BA9F02100F4825DF189DAD480E11289 /* SwiftCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = CE8441132D8868A357C2312B6CDC3D52 /* SwiftCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DD64F5038AB5EA264F7556E703AD5B4 /* CCoroutine.c in Sources */ = {isa = PBXBuildFile; fileRef = 6A8BB8729E458DBA24C7DEB0E06A9D00 /* CCoroutine.c */; };
+		5E0B6DF2380430A150B232FD9B00D50E /* CoChannelSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5340651020F7C8ED7306663C0F94FB3B /* CoChannelSubscription.swift */; };
+		5F01C54555E009F90253DD1C3E0F5198 /* PKHUDProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7492D265D213068BE4FF5F0D9C4808EB /* PKHUDProgressView.swift */; };
+		626560FCB1C4C562C117E742A6486A1E /* PKHUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D3D38B24C3B4D0031E66E3747832251 /* PKHUD.swift */; };
+		652A5783876A76F24CD10559F9317AEF /* PKHUDErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3A25435BE1D1AAB7DF538BBD3ECFEA7 /* PKHUDErrorView.swift */; };
+		69F2683EFED95FDDE152E2725BC37C09 /* CoChannel+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F347D7A0F61984EACD4E7BD304C9E57F /* CoChannel+Combine.swift */; };
+		6FAB0F9EC2A22E3BD65C9EA8F78F74A2 /* PKHUDAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDDFA024D65E12BD7C148F0426B1F4B /* PKHUDAssets.swift */; };
+		728592BA748BDFBE4C2ACE1ABE8A64FB /* PKHUDTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AD931FF2CDEF4D25304E186032B295 /* PKHUDTextView.swift */; };
+		75F51039DBB0E40B8314C0438BDCB656 /* SharedCoroutineQueue.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE94C63A085327BD9B686EB20C9922BC /* SharedCoroutineQueue.swift */; };
+		7A8CE2E0112D863BB28B665F17C85CB8 /* CoFuture1+await.swift in Sources */ = {isa = PBXBuildFile; fileRef = 334EB8464480AE899E1D01AECEDFF4F6 /* CoFuture1+await.swift */; };
+		864B0106B6F2500001DA0D85C4F3EB02 /* CoroutineContext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DFAA80B9FA708A4F806EE9118A4051E /* CoroutineContext.swift */; };
+		897FC477B696A506F03DBFEB46328D54 /* PKHUDAnimating.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DAC243B826482614CA5AE5A33643FF6 /* PKHUDAnimating.swift */; };
+		89FFF72E1045E77A044AA0B79796AAB6 /* WindowRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 914D98C4B00D4CFA61E06709D6D1A274 /* WindowRootViewController.swift */; };
+		8B6FC30763C19D06F2B43D882AE30897 /* QueueNodeEraser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 540112DD5FC1E8DF0AA26A1C8C36CE12 /* QueueNodeEraser.swift */; };
+		A057C1481C4EF517988E88FAD51AA791 /* AtomicTuple.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A3798E256E979790CA45D55196EBFCC /* AtomicTuple.swift */; };
+		A22FF8ABF41523D88E6C76202113F053 /* PKHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 37BD8ADA6DECFB430966B4B7620FD20B /* PKHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A2BFEFE60F3E581F1D87A15E20B988F3 /* Coroutine+StackSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2477BEACCBFDC41D39B1EA42BD29E6 /* Coroutine+StackSize.swift */; };
+		A2E3B05C4F7DF7F764DE2735572C97F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		A2E69222D056CE257DA9D9E462B65083 /* Coroutine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A8ABD86D4BFA627F5AB3BB2DC0D186D /* Coroutine.swift */; };
+		A964E13F9443196F8416545E2C4D2467 /* CoroutineProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = E12139F56D8CD8499C6A7C20089DFFD3 /* CoroutineProtocol.swift */; };
+		AA3BB281376D9DFF5BFE52C3461F68A6 /* CoPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF28776687AEB3A0ADC1C64C457ED2B8 /* CoPromise.swift */; };
+		B070B0ECFD3032B03D6648FC9CDB80A8 /* CoroutineError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B3E7B493F853DF72F3A2A22C51D3A8 /* CoroutineError.swift */; };
+		BCCED184234649D45324D05A872E9300 /* Window.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AAEB508E1C32450B732C24AD55D249D /* Window.swift */; };
+		BD838FB638D55C240CEEF3EB7A5A530E /* CoFutureSubscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA257EF78D247340423E4DD3A9FBE12 /* CoFutureSubscription.swift */; };
+		BFE4539957F5FD5D3885B44104640C83 /* CoFutureError.swift in Sources */ = {isa = PBXBuildFile; fileRef = B231DDD55871BB2C0255F83A60E58C49 /* CoFutureError.swift */; };
+		CA6D2B2DE1F75D3EC85B45D7AD3407C4 /* _ConflatedChannel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA60532F600BBF1021A14B4F3C1852A6 /* _ConflatedChannel.swift */; };
+		CBEA51093F372734D02BA1DE1A0274B4 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6B722F86048EFA75AEF542C5B4F08 /* Constants.swift */; };
+		CF87B91415F61D83DE60044756ADA14A /* PKHUDRotatingImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A10507705707B19055BA1FF4EBADA876 /* PKHUDRotatingImageView.swift */; };
+		D4868F4AA31A6BC54F7F901DD5BB19F7 /* PKHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C813E01C0E7DD8C18CB3696BCDB4F78 /* PKHUD-dummy.m */; };
+		D78EC045B40D3ADA970FB634D04571DE /* CCoroutine.h in Headers */ = {isa = PBXBuildFile; fileRef = B6023850F8DE665E970541147DCA3669 /* CCoroutine.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DF101590E097C6A91ADDF96EBEEF118F /* DispatchSourceTimer+extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BAADB69E7E4FE80C1249B18713C0295 /* DispatchSourceTimer+extensions.swift */; };
+		DF6CB3DE41045082C9E92FE6B6062DB9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4123130BE0B2759880678DD9A48D67C8 /* Images.xcassets */; };
+		E970C631E8BC4D75C5966D95C028C6D4 /* CoFuture5+hashable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C75581188974D11FFFE7EE97ECE90C1 /* CoFuture5+hashable.swift */; };
+		EC3AD38AD07A221648A45D44940FCD1D /* CoChannelSender.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D853DC30ED5A246F9F351A55054FDA4 /* CoChannelSender.swift */; };
+		EF3E27BB1179653CC6E72359E37CB99D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		F33466D08E2CA19AEEC7B8AE922AA554 /* SwiftCoroutine-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5A9D868081CD1299CBCD1AD05490186 /* SwiftCoroutine-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F376957848E8456F3A5490E9FA82D411 /* PKHUD-PKHUDResources in Resources */ = {isa = PBXBuildFile; fileRef = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUD-PKHUDResources */; };
+		FB3555F9904D5BB6BAEFAFC74B71DBFA /* Pods-Renda10min-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A13F74A2741AA5450FDD3B9D9E233666 /* Pods-Renda10min-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC3221119ACEA3A31A753FF84CD2ECC5 /* TaggedPointer.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCB0C35A49E409FF495FE05E11D64A8C /* TaggedPointer.swift */; };
+		FD6E99E56A7092B0C4732AB81A277196 /* CallbackStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3B9C8EE01E2E199CB3B2B8855281E59 /* CallbackStack.swift */; };
+		FECEA264ACF4ACA1F7C5401CE8E1A238 /* HUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = A52044629E441E9793049EB9B0CB3E13 /* HUD.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		998E6811C90583230B4E76F6A612CCE2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 364873017BA37260EF589D44B6B73D21;
+			remoteInfo = PKHUD;
+		};
+		C3F5E19E8A5D65242E62DB52D50A5EB5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7F7332F1050B42A501616421AC869EB;
+			remoteInfo = "PKHUD-PKHUDResources";
+		};
+		E6175B4217EF8AE4A238B399BC5DADC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F0E1198055FDB8511480E7672650A6C8;
+			remoteInfo = SwiftCoroutine;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03B45B8A695CE1E3F1A6162EBD2624CA /* PKHUDSquareBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSquareBaseView.swift; path = PKHUD/PKHUDSquareBaseView.swift; sourceTree = "<group>"; };
+		05A2656F46E8CA87E77A035911B33D10 /* PKHUD */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PKHUD; path = PKHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0BDC2EEF03B02E5777BA5B1099588E13 /* Pods-Renda10min.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Renda10min.modulemap"; sourceTree = "<group>"; };
+		106E6E0360A57D9381B051FC3D2BC465 /* PKHUDSuccessView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSuccessView.swift; path = PKHUD/PKHUDSuccessView.swift; sourceTree = "<group>"; };
+		1106101C8A8C0749BCA2FC5C96843F8D /* CoFuture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoFuture.swift; path = Sources/SwiftCoroutine/CoFuture/Core/CoFuture.swift; sourceTree = "<group>"; };
+		12040D1E952A1A523E40DD29AA34FB5B /* FifoQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FifoQueue.swift; path = Sources/SwiftCoroutine/Helpers/Atomic/FifoQueue.swift; sourceTree = "<group>"; };
+		13BA1D74E7B0FE7E9C258B4703E51BE5 /* SwiftCoroutine.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCoroutine.debug.xcconfig; sourceTree = "<group>"; };
+		143E5F32B3D63F3300768AF6F723C58D /* CoFuture2+map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoFuture2+map.swift"; path = "Sources/SwiftCoroutine/CoFuture/Operators/CoFuture2+map.swift"; sourceTree = "<group>"; };
+		1BAADB69E7E4FE80C1249B18713C0295 /* DispatchSourceTimer+extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchSourceTimer+extensions.swift"; path = "Sources/SwiftCoroutine/Helpers/DispatchSourceTimer+extensions.swift"; sourceTree = "<group>"; };
+		1C75581188974D11FFFE7EE97ECE90C1 /* CoFuture5+hashable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoFuture5+hashable.swift"; path = "Sources/SwiftCoroutine/CoFuture/Operators/CoFuture5+hashable.swift"; sourceTree = "<group>"; };
+		1C82E5CE1B9F8CA0D65022964C5619BD /* CoChannelError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoChannelError.swift; path = Sources/SwiftCoroutine/CoChannel/CoChannelError.swift; sourceTree = "<group>"; };
+		1D0418E5873C6FD8D4756980D37DA4A1 /* _CoChannelMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _CoChannelMap.swift; path = Sources/SwiftCoroutine/CoChannel/Channels/_CoChannelMap.swift; sourceTree = "<group>"; };
+		208376E20FC4C3741224C6E40A140C28 /* CoFuturePublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoFuturePublisher.swift; path = Sources/SwiftCoroutine/CoFuture/Operators/Combine/CoFuture/CoFuturePublisher.swift; sourceTree = "<group>"; };
+		258963F12CA6C00E9CF401F2D50C18D3 /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-PKHUDResources-PKHUD-Info.plist"; sourceTree = "<group>"; };
+		28A4C62F31525ADC0B414F58462C279B /* PKHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-umbrella.h"; sourceTree = "<group>"; };
+		29B5ECA75E1FA753A052219E62B12728 /* CoCancellable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoCancellable.swift; path = Sources/SwiftCoroutine/CoScope/CoCancellable.swift; sourceTree = "<group>"; };
+		30874056F590E61D5102F9552BF044FF /* PKHUD.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.release.xcconfig; sourceTree = "<group>"; };
+		31D69D60DA81B2DA2F4E48BE0B2DF939 /* Pods-Renda10min-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Renda10min-frameworks.sh"; sourceTree = "<group>"; };
+		3217D67267511AC28BB66F7FB5F88A4C /* CoFuture4+whenComplete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoFuture4+whenComplete.swift"; path = "Sources/SwiftCoroutine/CoFuture/Operators/CoFuture4+whenComplete.swift"; sourceTree = "<group>"; };
+		334EB8464480AE899E1D01AECEDFF4F6 /* CoFuture1+await.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoFuture1+await.swift"; path = "Sources/SwiftCoroutine/CoFuture/Operators/CoFuture1+await.swift"; sourceTree = "<group>"; };
+		355772721D67A743370A0A7F1C1168C8 /* PKHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PKHUD-prefix.pch"; sourceTree = "<group>"; };
+		37BD8ADA6DECFB430966B4B7620FD20B /* PKHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PKHUD.h; path = PKHUD/PKHUD.h; sourceTree = "<group>"; };
+		3AC11AE0EE3585745014D1CBC2716FA2 /* URLSession+CoFuture.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSession+CoFuture.swift"; path = "Sources/SwiftCoroutine/CoFuture/Extensions/URLSession+CoFuture.swift"; sourceTree = "<group>"; };
+		3CDDFA024D65E12BD7C148F0426B1F4B /* PKHUDAssets.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAssets.swift; path = PKHUD/PKHUDAssets.swift; sourceTree = "<group>"; };
+		4123130BE0B2759880678DD9A48D67C8 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = PKHUD/Images.xcassets; sourceTree = "<group>"; };
+		41C713583C49A06B54521D26CC60ECA9 /* CoroutineScheduler+DispatchQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoroutineScheduler+DispatchQueue.swift"; path = "Sources/SwiftCoroutine/Coroutine/TaskScheduler/CoroutineScheduler+DispatchQueue.swift"; sourceTree = "<group>"; };
+		436655080DC5EB542EF353421E775AE9 /* PKHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PKHUD.modulemap; sourceTree = "<group>"; };
+		44B6B722F86048EFA75AEF542C5B4F08 /* Constants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Constants.swift; path = Sources/SwiftCoroutine/Helpers/Constants.swift; sourceTree = "<group>"; };
+		4A5E95DBF0F89809DE73A8DF996FAE0D /* PKHUDWideBaseView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDWideBaseView.swift; path = PKHUD/PKHUDWideBaseView.swift; sourceTree = "<group>"; };
+		4BE60DF85151363820758069A13D95B9 /* Pods-Renda10min-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Renda10min-acknowledgements.plist"; sourceTree = "<group>"; };
+		5340651020F7C8ED7306663C0F94FB3B /* CoChannelSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoChannelSubscription.swift; path = Sources/SwiftCoroutine/CoFuture/Operators/Combine/CoChannel/CoChannelSubscription.swift; sourceTree = "<group>"; };
+		540112DD5FC1E8DF0AA26A1C8C36CE12 /* QueueNodeEraser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = QueueNodeEraser.swift; path = Sources/SwiftCoroutine/Helpers/Atomic/QueueNodeEraser.swift; sourceTree = "<group>"; };
+		586FD115BD134661DB5947B3CAC9266C /* AtomicInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicInt.swift; path = Sources/SwiftCoroutine/Helpers/Atomic/AtomicInt.swift; sourceTree = "<group>"; };
+		5C813E01C0E7DD8C18CB3696BCDB4F78 /* PKHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PKHUD-dummy.m"; sourceTree = "<group>"; };
+		5D3D38B24C3B4D0031E66E3747832251 /* PKHUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUD.swift; path = PKHUD/PKHUD.swift; sourceTree = "<group>"; };
+		612EBD704B8045AADE8BA7DD20D8E2EA /* _Channel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _Channel.swift; path = Sources/SwiftCoroutine/CoChannel/Channels/_Channel.swift; sourceTree = "<group>"; };
+		660752C9084BF02DCE69874BE97CCEC9 /* FrameView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FrameView.swift; path = PKHUD/FrameView.swift; sourceTree = "<group>"; };
+		662A5743E3232C2172B2C5F03A61FBDE /* CoFuture3+flatMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoFuture3+flatMap.swift"; path = "Sources/SwiftCoroutine/CoFuture/Operators/CoFuture3+flatMap.swift"; sourceTree = "<group>"; };
+		67285843C38E225B164CB095BE77BCFD /* CoChannelPublisher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoChannelPublisher.swift; path = Sources/SwiftCoroutine/CoFuture/Operators/Combine/CoChannel/CoChannelPublisher.swift; sourceTree = "<group>"; };
+		684708CB8B7801A00C6C32B101BE7110 /* PKHUD.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PKHUD.debug.xcconfig; sourceTree = "<group>"; };
+		6969E7E303561FD6EB4A21503A8387F4 /* Pods-Renda10min.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Renda10min.debug.xcconfig"; sourceTree = "<group>"; };
+		6A8ABD86D4BFA627F5AB3BB2DC0D186D /* Coroutine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Coroutine.swift; path = Sources/SwiftCoroutine/Coroutine/Coroutine/Coroutine.swift; sourceTree = "<group>"; };
+		6A8BB8729E458DBA24C7DEB0E06A9D00 /* CCoroutine.c */ = {isa = PBXFileReference; includeInIndex = 1; name = CCoroutine.c; path = Sources/CCoroutine/CCoroutine.c; sourceTree = "<group>"; };
+		6CA257EF78D247340423E4DD3A9FBE12 /* CoFutureSubscription.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoFutureSubscription.swift; path = Sources/SwiftCoroutine/CoFuture/Operators/Combine/CoFuture/CoFutureSubscription.swift; sourceTree = "<group>"; };
+		6DAC243B826482614CA5AE5A33643FF6 /* PKHUDAnimating.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimating.swift; path = PKHUD/PKHUDAnimating.swift; sourceTree = "<group>"; };
+		71B3E7B493F853DF72F3A2A22C51D3A8 /* CoroutineError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoroutineError.swift; path = Sources/SwiftCoroutine/Coroutine/Coroutine/CoroutineError.swift; sourceTree = "<group>"; };
+		723A889BE65A1CCB386FB4838155E177 /* SwiftCoroutine.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftCoroutine.modulemap; sourceTree = "<group>"; };
+		72874416FFCD825018132D22D18518CD /* SwiftCoroutine.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftCoroutine.release.xcconfig; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7492D265D213068BE4FF5F0D9C4808EB /* PKHUDProgressView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDProgressView.swift; path = PKHUD/PKHUDProgressView.swift; sourceTree = "<group>"; };
+		75AD931FF2CDEF4D25304E186032B295 /* PKHUDTextView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDTextView.swift; path = PKHUD/PKHUDTextView.swift; sourceTree = "<group>"; };
+		75E79E142606B8C4F9AEB33DCBA2B7B0 /* Pods-Renda10min-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Renda10min-acknowledgements.markdown"; sourceTree = "<group>"; };
+		7DFAA80B9FA708A4F806EE9118A4051E /* CoroutineContext.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoroutineContext.swift; path = Sources/SwiftCoroutine/Coroutine/Context/CoroutineContext.swift; sourceTree = "<group>"; };
+		843E806043E52197BB12AC5D6ACA0568 /* PKHUDSystemActivityIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDSystemActivityIndicatorView.swift; path = PKHUD/PKHUDSystemActivityIndicatorView.swift; sourceTree = "<group>"; };
+		8AAEB508E1C32450B732C24AD55D249D /* Window.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Window.swift; path = PKHUD/Window.swift; sourceTree = "<group>"; };
+		8CC0DDA71F2BD33A75EF82A552526AA1 /* SharedCoroutineDispatcher.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedCoroutineDispatcher.swift; path = Sources/SwiftCoroutine/Coroutine/SharedCoroutineDispatcher/SharedCoroutineDispatcher.swift; sourceTree = "<group>"; };
+		914D98C4B00D4CFA61E06709D6D1A274 /* WindowRootViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WindowRootViewController.swift; path = PKHUD/WindowRootViewController.swift; sourceTree = "<group>"; };
+		93872CBB90CCCC32C8EE7BDFFE2D5FE7 /* Pods-Renda10min */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Renda10min"; path = Pods_Renda10min.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A3798E256E979790CA45D55196EBFCC /* AtomicTuple.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AtomicTuple.swift; path = Sources/SwiftCoroutine/Helpers/Atomic/AtomicTuple.swift; sourceTree = "<group>"; };
+		9D853DC30ED5A246F9F351A55054FDA4 /* CoChannelSender.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoChannelSender.swift; path = Sources/SwiftCoroutine/CoChannel/CoChannelSender.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A10507705707B19055BA1FF4EBADA876 /* PKHUDRotatingImageView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDRotatingImageView.swift; path = PKHUD/PKHUDRotatingImageView.swift; sourceTree = "<group>"; };
+		A13F74A2741AA5450FDD3B9D9E233666 /* Pods-Renda10min-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Renda10min-umbrella.h"; sourceTree = "<group>"; };
+		A52044629E441E9793049EB9B0CB3E13 /* HUD.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HUD.swift; path = PKHUD/HUD.swift; sourceTree = "<group>"; };
+		ABC7FBD7C6D96AF5B5BB96A67AC5900F /* CoScope.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoScope.swift; path = Sources/SwiftCoroutine/CoScope/CoScope.swift; sourceTree = "<group>"; };
+		AC2477BEACCBFDC41D39B1EA42BD29E6 /* Coroutine+StackSize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Coroutine+StackSize.swift"; path = "Sources/SwiftCoroutine/Coroutine/Coroutine/Coroutine+StackSize.swift"; sourceTree = "<group>"; };
+		AF28776687AEB3A0ADC1C64C457ED2B8 /* CoPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoPromise.swift; path = Sources/SwiftCoroutine/CoFuture/Core/CoPromise.swift; sourceTree = "<group>"; };
+		AF4064A2CAE8A5846BED1AF13402998B /* CoChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoChannel.swift; path = Sources/SwiftCoroutine/CoChannel/CoChannel.swift; sourceTree = "<group>"; };
+		B231DDD55871BB2C0255F83A60E58C49 /* CoFutureError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoFutureError.swift; path = Sources/SwiftCoroutine/CoFuture/CoFutureError.swift; sourceTree = "<group>"; };
+		B295EDE5EA0D9C4D1A25E7C8EE3C571F /* CoroutineScheduler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoroutineScheduler.swift; path = Sources/SwiftCoroutine/Coroutine/TaskScheduler/CoroutineScheduler.swift; sourceTree = "<group>"; };
+		B6023850F8DE665E970541147DCA3669 /* CCoroutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CCoroutine.h; path = Sources/CCoroutine/include/CCoroutine.h; sourceTree = "<group>"; };
+		B6E8191DAD100C60DD7BFEB2E258D5FC /* PKHUD-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "PKHUD-Info.plist"; sourceTree = "<group>"; };
+		BED52B38509DCCC885AEDF0505CC1232 /* _BufferedChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _BufferedChannel.swift; path = Sources/SwiftCoroutine/CoChannel/Channels/_BufferedChannel.swift; sourceTree = "<group>"; };
+		BEF1288B13A9AC9279D5C19E71A2EFB5 /* Pods-Renda10min.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Renda10min.release.xcconfig"; sourceTree = "<group>"; };
+		BFCB2D5C605270A32522299AED3B5AE6 /* PKHUD-PKHUDResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "PKHUD-PKHUDResources"; path = PKHUDResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		C05BC75B79334FB28CA6751DE904A1FA /* Storage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Storage.swift; path = Sources/SwiftCoroutine/Helpers/Atomic/Storage.swift; sourceTree = "<group>"; };
+		C10A324728CA4B073524D1AA6C5AC781 /* SharedCoroutine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedCoroutine.swift; path = Sources/SwiftCoroutine/Coroutine/SharedCoroutineDispatcher/SharedCoroutine.swift; sourceTree = "<group>"; };
+		C16170C3030F10BA26F580F9E443FE70 /* SwiftCoroutine */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftCoroutine; path = SwiftCoroutine.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C3A25435BE1D1AAB7DF538BBD3ECFEA7 /* PKHUDErrorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDErrorView.swift; path = PKHUD/PKHUDErrorView.swift; sourceTree = "<group>"; };
+		C3B9C8EE01E2E199CB3B2B8855281E59 /* CallbackStack.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CallbackStack.swift; path = Sources/SwiftCoroutine/Helpers/Atomic/CallbackStack.swift; sourceTree = "<group>"; };
+		CA60532F600BBF1021A14B4F3C1852A6 /* _ConflatedChannel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = _ConflatedChannel.swift; path = Sources/SwiftCoroutine/CoChannel/Channels/_ConflatedChannel.swift; sourceTree = "<group>"; };
+		CE8441132D8868A357C2312B6CDC3D52 /* SwiftCoroutine.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwiftCoroutine.h; path = Sources/SwiftCoroutine.h; sourceTree = "<group>"; };
+		D7976593F0424337C263546950444D35 /* Pods-Renda10min-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Renda10min-Info.plist"; sourceTree = "<group>"; };
+		DCB0C35A49E409FF495FE05E11D64A8C /* TaggedPointer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TaggedPointer.swift; path = Sources/SwiftCoroutine/Helpers/Atomic/TaggedPointer.swift; sourceTree = "<group>"; };
+		E12139F56D8CD8499C6A7C20089DFFD3 /* CoroutineProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoroutineProtocol.swift; path = Sources/SwiftCoroutine/Coroutine/CoroutineProtocol/CoroutineProtocol.swift; sourceTree = "<group>"; };
+		E15D6ABE9054F6551E98AAB46182FEBA /* CoFuture+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoFuture+Combine.swift"; path = "Sources/SwiftCoroutine/CoFuture/Operators/Combine/CoFuture/CoFuture+Combine.swift"; sourceTree = "<group>"; };
+		E5A9D868081CD1299CBCD1AD05490186 /* SwiftCoroutine-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCoroutine-umbrella.h"; sourceTree = "<group>"; };
+		E97D2997FEB94904B3B6EB4F999C3031 /* SwiftCoroutine-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftCoroutine-Info.plist"; sourceTree = "<group>"; };
+		EE24DB588BA76F0EAB8F2BD3A43380EF /* SwiftCoroutine-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftCoroutine-prefix.pch"; sourceTree = "<group>"; };
+		EE94C63A085327BD9B686EB20C9922BC /* SharedCoroutineQueue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SharedCoroutineQueue.swift; path = Sources/SwiftCoroutine/Coroutine/SharedCoroutineDispatcher/SharedCoroutineQueue.swift; sourceTree = "<group>"; };
+		F19FC64BB535C294F9A94719A829E24F /* CoChannelReceiver.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoChannelReceiver.swift; path = Sources/SwiftCoroutine/CoChannel/CoChannelReceiver.swift; sourceTree = "<group>"; };
+		F347D7A0F61984EACD4E7BD304C9E57F /* CoChannel+Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CoChannel+Combine.swift"; path = "Sources/SwiftCoroutine/CoFuture/Operators/Combine/CoChannel/CoChannel+Combine.swift"; sourceTree = "<group>"; };
+		F70CDDE0BAC034A1F77AAA87BBAE8490 /* PKHUDAnimation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PKHUDAnimation.swift; path = PKHUD/PKHUDAnimation.swift; sourceTree = "<group>"; };
+		F83EA668CE862639462E0876C4A13B51 /* SwiftCoroutine-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftCoroutine-dummy.m"; sourceTree = "<group>"; };
+		FEEC73AEEC557AA567A53BADEA4B669B /* Pods-Renda10min-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Renda10min-dummy.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		79E6C4C44D586619F2878E6657975239 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		981D49EC59861195750C98C8A9494D6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2E3B05C4F7DF7F764DE2735572C97F1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A16916FACA0FE1943006257EE480953D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54AFC6955D395E0B26A96691479988DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A19896DDE3B985730D6D433B074B23F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF3E27BB1179653CC6E72359E37CB99D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		002E9D2DFD53067345D000B09417E674 /* Pods-Renda10min */ = {
+			isa = PBXGroup;
+			children = (
+				0BDC2EEF03B02E5777BA5B1099588E13 /* Pods-Renda10min.modulemap */,
+				75E79E142606B8C4F9AEB33DCBA2B7B0 /* Pods-Renda10min-acknowledgements.markdown */,
+				4BE60DF85151363820758069A13D95B9 /* Pods-Renda10min-acknowledgements.plist */,
+				FEEC73AEEC557AA567A53BADEA4B669B /* Pods-Renda10min-dummy.m */,
+				31D69D60DA81B2DA2F4E48BE0B2DF939 /* Pods-Renda10min-frameworks.sh */,
+				D7976593F0424337C263546950444D35 /* Pods-Renda10min-Info.plist */,
+				A13F74A2741AA5450FDD3B9D9E233666 /* Pods-Renda10min-umbrella.h */,
+				6969E7E303561FD6EB4A21503A8387F4 /* Pods-Renda10min.debug.xcconfig */,
+				BEF1288B13A9AC9279D5C19E71A2EFB5 /* Pods-Renda10min.release.xcconfig */,
+			);
+			name = "Pods-Renda10min";
+			path = "Target Support Files/Pods-Renda10min";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7D65E04E4979B819C43C3F4069F966AD /* SwiftCoroutine */ = {
+			isa = PBXGroup;
+			children = (
+				BED52B38509DCCC885AEDF0505CC1232 /* _BufferedChannel.swift */,
+				612EBD704B8045AADE8BA7DD20D8E2EA /* _Channel.swift */,
+				1D0418E5873C6FD8D4756980D37DA4A1 /* _CoChannelMap.swift */,
+				CA60532F600BBF1021A14B4F3C1852A6 /* _ConflatedChannel.swift */,
+				586FD115BD134661DB5947B3CAC9266C /* AtomicInt.swift */,
+				9A3798E256E979790CA45D55196EBFCC /* AtomicTuple.swift */,
+				C3B9C8EE01E2E199CB3B2B8855281E59 /* CallbackStack.swift */,
+				6A8BB8729E458DBA24C7DEB0E06A9D00 /* CCoroutine.c */,
+				B6023850F8DE665E970541147DCA3669 /* CCoroutine.h */,
+				29B5ECA75E1FA753A052219E62B12728 /* CoCancellable.swift */,
+				AF4064A2CAE8A5846BED1AF13402998B /* CoChannel.swift */,
+				F347D7A0F61984EACD4E7BD304C9E57F /* CoChannel+Combine.swift */,
+				1C82E5CE1B9F8CA0D65022964C5619BD /* CoChannelError.swift */,
+				67285843C38E225B164CB095BE77BCFD /* CoChannelPublisher.swift */,
+				F19FC64BB535C294F9A94719A829E24F /* CoChannelReceiver.swift */,
+				9D853DC30ED5A246F9F351A55054FDA4 /* CoChannelSender.swift */,
+				5340651020F7C8ED7306663C0F94FB3B /* CoChannelSubscription.swift */,
+				1106101C8A8C0749BCA2FC5C96843F8D /* CoFuture.swift */,
+				E15D6ABE9054F6551E98AAB46182FEBA /* CoFuture+Combine.swift */,
+				334EB8464480AE899E1D01AECEDFF4F6 /* CoFuture1+await.swift */,
+				143E5F32B3D63F3300768AF6F723C58D /* CoFuture2+map.swift */,
+				662A5743E3232C2172B2C5F03A61FBDE /* CoFuture3+flatMap.swift */,
+				3217D67267511AC28BB66F7FB5F88A4C /* CoFuture4+whenComplete.swift */,
+				1C75581188974D11FFFE7EE97ECE90C1 /* CoFuture5+hashable.swift */,
+				B231DDD55871BB2C0255F83A60E58C49 /* CoFutureError.swift */,
+				208376E20FC4C3741224C6E40A140C28 /* CoFuturePublisher.swift */,
+				6CA257EF78D247340423E4DD3A9FBE12 /* CoFutureSubscription.swift */,
+				44B6B722F86048EFA75AEF542C5B4F08 /* Constants.swift */,
+				AF28776687AEB3A0ADC1C64C457ED2B8 /* CoPromise.swift */,
+				6A8ABD86D4BFA627F5AB3BB2DC0D186D /* Coroutine.swift */,
+				AC2477BEACCBFDC41D39B1EA42BD29E6 /* Coroutine+StackSize.swift */,
+				7DFAA80B9FA708A4F806EE9118A4051E /* CoroutineContext.swift */,
+				71B3E7B493F853DF72F3A2A22C51D3A8 /* CoroutineError.swift */,
+				E12139F56D8CD8499C6A7C20089DFFD3 /* CoroutineProtocol.swift */,
+				B295EDE5EA0D9C4D1A25E7C8EE3C571F /* CoroutineScheduler.swift */,
+				41C713583C49A06B54521D26CC60ECA9 /* CoroutineScheduler+DispatchQueue.swift */,
+				ABC7FBD7C6D96AF5B5BB96A67AC5900F /* CoScope.swift */,
+				1BAADB69E7E4FE80C1249B18713C0295 /* DispatchSourceTimer+extensions.swift */,
+				12040D1E952A1A523E40DD29AA34FB5B /* FifoQueue.swift */,
+				540112DD5FC1E8DF0AA26A1C8C36CE12 /* QueueNodeEraser.swift */,
+				C10A324728CA4B073524D1AA6C5AC781 /* SharedCoroutine.swift */,
+				8CC0DDA71F2BD33A75EF82A552526AA1 /* SharedCoroutineDispatcher.swift */,
+				EE94C63A085327BD9B686EB20C9922BC /* SharedCoroutineQueue.swift */,
+				C05BC75B79334FB28CA6751DE904A1FA /* Storage.swift */,
+				CE8441132D8868A357C2312B6CDC3D52 /* SwiftCoroutine.h */,
+				DCB0C35A49E409FF495FE05E11D64A8C /* TaggedPointer.swift */,
+				3AC11AE0EE3585745014D1CBC2716FA2 /* URLSession+CoFuture.swift */,
+				F9C1C5021C87F72E3B4A4921889B0C0B /* Support Files */,
+			);
+			name = SwiftCoroutine;
+			path = SwiftCoroutine;
+			sourceTree = "<group>";
+		};
+		8DE63B1AE2028C01F361A66F2F47A993 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05A2656F46E8CA87E77A035911B33D10 /* PKHUD */,
+				BFCB2D5C605270A32522299AED3B5AE6 /* PKHUD-PKHUDResources */,
+				93872CBB90CCCC32C8EE7BDFFE2D5FE7 /* Pods-Renda10min */,
+				C16170C3030F10BA26F580F9E443FE70 /* SwiftCoroutine */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9C687C25162B79852C20886BAD12DD5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D14538DA2C2879651F17A146BB2FEC5C /* PKHUD */,
+				7D65E04E4979B819C43C3F4069F966AD /* SwiftCoroutine */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		AD92598914491763B32D962FC62BEADA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				436655080DC5EB542EF353421E775AE9 /* PKHUD.modulemap */,
+				5C813E01C0E7DD8C18CB3696BCDB4F78 /* PKHUD-dummy.m */,
+				B6E8191DAD100C60DD7BFEB2E258D5FC /* PKHUD-Info.plist */,
+				355772721D67A743370A0A7F1C1168C8 /* PKHUD-prefix.pch */,
+				28A4C62F31525ADC0B414F58462C279B /* PKHUD-umbrella.h */,
+				684708CB8B7801A00C6C32B101BE7110 /* PKHUD.debug.xcconfig */,
+				30874056F590E61D5102F9552BF044FF /* PKHUD.release.xcconfig */,
+				258963F12CA6C00E9CF401F2D50C18D3 /* ResourceBundle-PKHUDResources-PKHUD-Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PKHUD";
+			sourceTree = "<group>";
+		};
+		BB5C4ACA1AC2E3FD899223D84B3952BF /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				002E9D2DFD53067345D000B09417E674 /* Pods-Renda10min */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				A9C687C25162B79852C20886BAD12DD5 /* Pods */,
+				8DE63B1AE2028C01F361A66F2F47A993 /* Products */,
+				BB5C4ACA1AC2E3FD899223D84B3952BF /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D14538DA2C2879651F17A146BB2FEC5C /* PKHUD */ = {
+			isa = PBXGroup;
+			children = (
+				660752C9084BF02DCE69874BE97CCEC9 /* FrameView.swift */,
+				A52044629E441E9793049EB9B0CB3E13 /* HUD.swift */,
+				37BD8ADA6DECFB430966B4B7620FD20B /* PKHUD.h */,
+				5D3D38B24C3B4D0031E66E3747832251 /* PKHUD.swift */,
+				6DAC243B826482614CA5AE5A33643FF6 /* PKHUDAnimating.swift */,
+				F70CDDE0BAC034A1F77AAA87BBAE8490 /* PKHUDAnimation.swift */,
+				3CDDFA024D65E12BD7C148F0426B1F4B /* PKHUDAssets.swift */,
+				C3A25435BE1D1AAB7DF538BBD3ECFEA7 /* PKHUDErrorView.swift */,
+				7492D265D213068BE4FF5F0D9C4808EB /* PKHUDProgressView.swift */,
+				A10507705707B19055BA1FF4EBADA876 /* PKHUDRotatingImageView.swift */,
+				03B45B8A695CE1E3F1A6162EBD2624CA /* PKHUDSquareBaseView.swift */,
+				106E6E0360A57D9381B051FC3D2BC465 /* PKHUDSuccessView.swift */,
+				843E806043E52197BB12AC5D6ACA0568 /* PKHUDSystemActivityIndicatorView.swift */,
+				75AD931FF2CDEF4D25304E186032B295 /* PKHUDTextView.swift */,
+				4A5E95DBF0F89809DE73A8DF996FAE0D /* PKHUDWideBaseView.swift */,
+				8AAEB508E1C32450B732C24AD55D249D /* Window.swift */,
+				914D98C4B00D4CFA61E06709D6D1A274 /* WindowRootViewController.swift */,
+				FFB3AF8A4CBFA8296CF594827B9365EA /* Resources */,
+				AD92598914491763B32D962FC62BEADA /* Support Files */,
+			);
+			name = PKHUD;
+			path = PKHUD;
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F9C1C5021C87F72E3B4A4921889B0C0B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				723A889BE65A1CCB386FB4838155E177 /* SwiftCoroutine.modulemap */,
+				F83EA668CE862639462E0876C4A13B51 /* SwiftCoroutine-dummy.m */,
+				E97D2997FEB94904B3B6EB4F999C3031 /* SwiftCoroutine-Info.plist */,
+				EE24DB588BA76F0EAB8F2BD3A43380EF /* SwiftCoroutine-prefix.pch */,
+				E5A9D868081CD1299CBCD1AD05490186 /* SwiftCoroutine-umbrella.h */,
+				13BA1D74E7B0FE7E9C258B4703E51BE5 /* SwiftCoroutine.debug.xcconfig */,
+				72874416FFCD825018132D22D18518CD /* SwiftCoroutine.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftCoroutine";
+			sourceTree = "<group>";
+		};
+		FFB3AF8A4CBFA8296CF594827B9365EA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4123130BE0B2759880678DD9A48D67C8 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6B284A3BD07FF13DB166DF10772382BB /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A22FF8ABF41523D88E6C76202113F053 /* PKHUD.h in Headers */,
+				42BE0FE120C46ACD08F40313ECF62602 /* PKHUD-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9C2C0117562DFEB9AF40B8001BDB6042 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB3555F9904D5BB6BAEFAFC74B71DBFA /* Pods-Renda10min-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0588E154E7EC13DAE07E745F75995FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D78EC045B40D3ADA970FB634D04571DE /* CCoroutine.h in Headers */,
+				5BA9F02100F4825DF189DAD480E11289 /* SwiftCoroutine.h in Headers */,
+				F33466D08E2CA19AEEC7B8AE922AA554 /* SwiftCoroutine-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		2B501A5F540D9BEB5A2A9DBEC3E1E983 /* Pods-Renda10min */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0811ED0F625D298AABD724AE5E58A98C /* Build configuration list for PBXNativeTarget "Pods-Renda10min" */;
+			buildPhases = (
+				9C2C0117562DFEB9AF40B8001BDB6042 /* Headers */,
+				809E52410F1CF4C2938DBD2F64CC553F /* Sources */,
+				A16916FACA0FE1943006257EE480953D /* Frameworks */,
+				DB3AE9A8AFEF226803786D6E00C66E0D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				972BCFA8547D195E9DFD1F43694B8E8F /* PBXTargetDependency */,
+				A000730D4ABD270433858F223273EFF2 /* PBXTargetDependency */,
+			);
+			name = "Pods-Renda10min";
+			productName = Pods_Renda10min;
+			productReference = 93872CBB90CCCC32C8EE7BDFFE2D5FE7 /* Pods-Renda10min */;
+			productType = "com.apple.product-type.framework";
+		};
+		364873017BA37260EF589D44B6B73D21 /* PKHUD */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 47554B80CDED7BDD674F2225F226C431 /* Build configuration list for PBXNativeTarget "PKHUD" */;
+			buildPhases = (
+				6B284A3BD07FF13DB166DF10772382BB /* Headers */,
+				28235C60E4CC11FBD300DEFC8298B651 /* Sources */,
+				981D49EC59861195750C98C8A9494D6E /* Frameworks */,
+				73E323791D3C368C7E95A32AEA9C6BFC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F2C02E3BB45DB77352E20F84074BD51 /* PBXTargetDependency */,
+			);
+			name = PKHUD;
+			productName = PKHUD;
+			productReference = 05A2656F46E8CA87E77A035911B33D10 /* PKHUD */;
+			productType = "com.apple.product-type.framework";
+		};
+		A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2002A66D14F6B8872319688F21D15D82 /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */;
+			buildPhases = (
+				360C98F8055E19B92B5D26277D686810 /* Sources */,
+				79E6C4C44D586619F2878E6657975239 /* Frameworks */,
+				90459792482D126C6A7E1AB6A3D2DA68 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "PKHUD-PKHUDResources";
+			productName = PKHUDResources;
+			productReference = BFCB2D5C605270A32522299AED3B5AE6 /* PKHUD-PKHUDResources */;
+			productType = "com.apple.product-type.bundle";
+		};
+		F0E1198055FDB8511480E7672650A6C8 /* SwiftCoroutine */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB4CBADC1E3A8E40A25D0BEA6ABAD939 /* Build configuration list for PBXNativeTarget "SwiftCoroutine" */;
+			buildPhases = (
+				A0588E154E7EC13DAE07E745F75995FC /* Headers */,
+				BE0583EBF42CDAAE989E889F19CE43B2 /* Sources */,
+				A19896DDE3B985730D6D433B074B23F3 /* Frameworks */,
+				9E26BE3FD5A2A38FDB1E2B712ED31862 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftCoroutine;
+			productName = SwiftCoroutine;
+			productReference = C16170C3030F10BA26F580F9E443FE70 /* SwiftCoroutine */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 8DE63B1AE2028C01F361A66F2F47A993 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				364873017BA37260EF589D44B6B73D21 /* PKHUD */,
+				A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */,
+				2B501A5F540D9BEB5A2A9DBEC3E1E983 /* Pods-Renda10min */,
+				F0E1198055FDB8511480E7672650A6C8 /* SwiftCoroutine */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		73E323791D3C368C7E95A32AEA9C6BFC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F376957848E8456F3A5490E9FA82D411 /* PKHUD-PKHUDResources in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90459792482D126C6A7E1AB6A3D2DA68 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DF6CB3DE41045082C9E92FE6B6062DB9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E26BE3FD5A2A38FDB1E2B712ED31862 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB3AE9A8AFEF226803786D6E00C66E0D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		28235C60E4CC11FBD300DEFC8298B651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EE1BC2A0CC6A033CB7F5C8F8080483 /* FrameView.swift in Sources */,
+				FECEA264ACF4ACA1F7C5401CE8E1A238 /* HUD.swift in Sources */,
+				626560FCB1C4C562C117E742A6486A1E /* PKHUD.swift in Sources */,
+				D4868F4AA31A6BC54F7F901DD5BB19F7 /* PKHUD-dummy.m in Sources */,
+				897FC477B696A506F03DBFEB46328D54 /* PKHUDAnimating.swift in Sources */,
+				333F62E2542F433813D4812D91EBC566 /* PKHUDAnimation.swift in Sources */,
+				6FAB0F9EC2A22E3BD65C9EA8F78F74A2 /* PKHUDAssets.swift in Sources */,
+				652A5783876A76F24CD10559F9317AEF /* PKHUDErrorView.swift in Sources */,
+				5F01C54555E009F90253DD1C3E0F5198 /* PKHUDProgressView.swift in Sources */,
+				CF87B91415F61D83DE60044756ADA14A /* PKHUDRotatingImageView.swift in Sources */,
+				1409D9CB66753D5C2E90FF9EA6B7AC40 /* PKHUDSquareBaseView.swift in Sources */,
+				1E589D08CB276548953C9FF2A685F130 /* PKHUDSuccessView.swift in Sources */,
+				37AE9C7F421984AA8C7B6AEFF69B0BEB /* PKHUDSystemActivityIndicatorView.swift in Sources */,
+				728592BA748BDFBE4C2ACE1ABE8A64FB /* PKHUDTextView.swift in Sources */,
+				5B8E0518EE842922F5A03F19F0B22726 /* PKHUDWideBaseView.swift in Sources */,
+				BCCED184234649D45324D05A872E9300 /* Window.swift in Sources */,
+				89FFF72E1045E77A044AA0B79796AAB6 /* WindowRootViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		360C98F8055E19B92B5D26277D686810 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		809E52410F1CF4C2938DBD2F64CC553F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C75C890FCC563E88411A03E46721605 /* Pods-Renda10min-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BE0583EBF42CDAAE989E889F19CE43B2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40F98C40500AEC6A3698944F7D34B3A6 /* _BufferedChannel.swift in Sources */,
+				0916359D39DF92D53AF8C71D56C046CD /* _Channel.swift in Sources */,
+				2BD4D89B255487743A97FF7B34E09205 /* _CoChannelMap.swift in Sources */,
+				CA6D2B2DE1F75D3EC85B45D7AD3407C4 /* _ConflatedChannel.swift in Sources */,
+				3916BAA25122E3F4639036C4745F5496 /* AtomicInt.swift in Sources */,
+				A057C1481C4EF517988E88FAD51AA791 /* AtomicTuple.swift in Sources */,
+				FD6E99E56A7092B0C4732AB81A277196 /* CallbackStack.swift in Sources */,
+				5DD64F5038AB5EA264F7556E703AD5B4 /* CCoroutine.c in Sources */,
+				247F9FAA2645972265DCF426671B3C5C /* CoCancellable.swift in Sources */,
+				40164FE98E5710FDFBD96A267480AE82 /* CoChannel.swift in Sources */,
+				69F2683EFED95FDDE152E2725BC37C09 /* CoChannel+Combine.swift in Sources */,
+				06DC0544A876E0AB8BDFDE65322AEB40 /* CoChannelError.swift in Sources */,
+				2936BC8262A5572F8A6DAB805F561403 /* CoChannelPublisher.swift in Sources */,
+				31C7DC10469D2F871AA4C6971D42E0A5 /* CoChannelReceiver.swift in Sources */,
+				EC3AD38AD07A221648A45D44940FCD1D /* CoChannelSender.swift in Sources */,
+				5E0B6DF2380430A150B232FD9B00D50E /* CoChannelSubscription.swift in Sources */,
+				037EA92F32388260CDCC3E65698ADFDB /* CoFuture.swift in Sources */,
+				38AAE93D6E8F9BC6A82B3F4DEA86880E /* CoFuture+Combine.swift in Sources */,
+				7A8CE2E0112D863BB28B665F17C85CB8 /* CoFuture1+await.swift in Sources */,
+				47F2A54164B822DCC6A099ED3C6FE816 /* CoFuture2+map.swift in Sources */,
+				54FD42113018F98BBC3F5CA782EF8E5D /* CoFuture3+flatMap.swift in Sources */,
+				51EA12110B628BB2A3873A24B1BBC589 /* CoFuture4+whenComplete.swift in Sources */,
+				E970C631E8BC4D75C5966D95C028C6D4 /* CoFuture5+hashable.swift in Sources */,
+				BFE4539957F5FD5D3885B44104640C83 /* CoFutureError.swift in Sources */,
+				106D4D7146B7FCA99512B3AE5BB4B0CF /* CoFuturePublisher.swift in Sources */,
+				BD838FB638D55C240CEEF3EB7A5A530E /* CoFutureSubscription.swift in Sources */,
+				CBEA51093F372734D02BA1DE1A0274B4 /* Constants.swift in Sources */,
+				AA3BB281376D9DFF5BFE52C3461F68A6 /* CoPromise.swift in Sources */,
+				A2E69222D056CE257DA9D9E462B65083 /* Coroutine.swift in Sources */,
+				A2BFEFE60F3E581F1D87A15E20B988F3 /* Coroutine+StackSize.swift in Sources */,
+				864B0106B6F2500001DA0D85C4F3EB02 /* CoroutineContext.swift in Sources */,
+				B070B0ECFD3032B03D6648FC9CDB80A8 /* CoroutineError.swift in Sources */,
+				A964E13F9443196F8416545E2C4D2467 /* CoroutineProtocol.swift in Sources */,
+				4491749D3F8808EA5FA0E05717A56EC3 /* CoroutineScheduler.swift in Sources */,
+				1A7DD0FE6CFAA552F5CABF15B638BAE6 /* CoroutineScheduler+DispatchQueue.swift in Sources */,
+				09905DC3F4EADF5524EDB373069C83AC /* CoScope.swift in Sources */,
+				DF101590E097C6A91ADDF96EBEEF118F /* DispatchSourceTimer+extensions.swift in Sources */,
+				120CF9F491DA0D22CFA28DF5F36A52A2 /* FifoQueue.swift in Sources */,
+				8B6FC30763C19D06F2B43D882AE30897 /* QueueNodeEraser.swift in Sources */,
+				4E5C6765B8F9DCD77E96420CCD0C8CAD /* SharedCoroutine.swift in Sources */,
+				3344C710B5C44D67562BC4293513A75B /* SharedCoroutineDispatcher.swift in Sources */,
+				75F51039DBB0E40B8314C0438BDCB656 /* SharedCoroutineQueue.swift in Sources */,
+				03CF75A5C095941A900E35DBBF0118E4 /* Storage.swift in Sources */,
+				43A3521E1FB1230D54985F3EE726E068 /* SwiftCoroutine-dummy.m in Sources */,
+				FC3221119ACEA3A31A753FF84CD2ECC5 /* TaggedPointer.swift in Sources */,
+				27DD81A535982A5A00464D3B2A864BC6 /* URLSession+CoFuture.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F2C02E3BB45DB77352E20F84074BD51 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "PKHUD-PKHUDResources";
+			target = A7F7332F1050B42A501616421AC869EB /* PKHUD-PKHUDResources */;
+			targetProxy = C3F5E19E8A5D65242E62DB52D50A5EB5 /* PBXContainerItemProxy */;
+		};
+		972BCFA8547D195E9DFD1F43694B8E8F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PKHUD;
+			target = 364873017BA37260EF589D44B6B73D21 /* PKHUD */;
+			targetProxy = 998E6811C90583230B4E76F6A612CCE2 /* PBXContainerItemProxy */;
+		};
+		A000730D4ABD270433858F223273EFF2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftCoroutine;
+			target = F0E1198055FDB8511480E7672650A6C8 /* SwiftCoroutine */;
+			targetProxy = E6175B4217EF8AE4A238B399BC5DADC7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		07570E86E65836F20EB4DFEBC7B83183 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684708CB8B7801A00C6C32B101BE7110 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		09909ECBA13E8F70A928465E7F7A9A92 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		2C06BBD7DFC2AF990D7472D6A0156778 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 684708CB8B7801A00C6C32B101BE7110 /* PKHUD.debug.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		2DE0D8898245310716431F92FA4989FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		69E18F8EC6690002B6F12C706D11D373 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEF1288B13A9AC9279D5C19E71A2EFB5 /* Pods-Renda10min.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Renda10min/Pods-Renda10min-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Renda10min/Pods-Renda10min.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8EACA5EDFAA1E57BF1751EC94F0F7B95 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30874056F590E61D5102F9552BF044FF /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PKHUD/PKHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PKHUD/PKHUD-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/PKHUD/PKHUD.modulemap";
+				PRODUCT_MODULE_NAME = PKHUD;
+				PRODUCT_NAME = PKHUD;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		925E3C1B02F43F569F6266FF9DC623F8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6969E7E303561FD6EB4A21503A8387F4 /* Pods-Renda10min.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Renda10min/Pods-Renda10min-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Renda10min/Pods-Renda10min.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A232F064CCBCE8FCBE6050E221FFCD4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13BA1D74E7B0FE7E9C258B4703E51BE5 /* SwiftCoroutine.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCoroutine/SwiftCoroutine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCoroutine/SwiftCoroutine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCoroutine/SwiftCoroutine.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCoroutine;
+				PRODUCT_NAME = SwiftCoroutine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A7C82789D48073B60AE249897B81D791 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72874416FFCD825018132D22D18518CD /* SwiftCoroutine.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftCoroutine/SwiftCoroutine-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftCoroutine/SwiftCoroutine-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftCoroutine/SwiftCoroutine.modulemap";
+				PRODUCT_MODULE_NAME = SwiftCoroutine;
+				PRODUCT_NAME = SwiftCoroutine;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1C5FB5809D45B53FDBC166ACB32CE3B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 30874056F590E61D5102F9552BF044FF /* PKHUD.release.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/PKHUD";
+				IBSC_MODULE = PKHUD;
+				INFOPLIST_FILE = "Target Support Files/PKHUD/ResourceBundle-PKHUDResources-PKHUD-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = PKHUDResources;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0811ED0F625D298AABD724AE5E58A98C /* Build configuration list for PBXNativeTarget "Pods-Renda10min" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				925E3C1B02F43F569F6266FF9DC623F8 /* Debug */,
+				69E18F8EC6690002B6F12C706D11D373 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2002A66D14F6B8872319688F21D15D82 /* Build configuration list for PBXNativeTarget "PKHUD-PKHUDResources" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C06BBD7DFC2AF990D7472D6A0156778 /* Debug */,
+				E1C5FB5809D45B53FDBC166ACB32CE3B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		47554B80CDED7BDD674F2225F226C431 /* Build configuration list for PBXNativeTarget "PKHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				07570E86E65836F20EB4DFEBC7B83183 /* Debug */,
+				8EACA5EDFAA1E57BF1751EC94F0F7B95 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				09909ECBA13E8F70A928465E7F7A9A92 /* Debug */,
+				2DE0D8898245310716431F92FA4989FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB4CBADC1E3A8E40A25D0BEA6ABAD939 /* Build configuration list for PBXNativeTarget "SwiftCoroutine" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A232F064CCBCE8FCBE6050E221FFCD4C /* Debug */,
+				A7C82789D48073B60AE249897B81D791 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

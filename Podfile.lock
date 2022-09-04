@@ -1,0 +1,20 @@
+PODS:
+  - PKHUD (5.3.0)
+  - SwiftCoroutine (2.1.11)
+
+DEPENDENCIES:
+  - PKHUD
+  - SwiftCoroutine
+
+SPEC REPOS:
+  trunk:
+    - PKHUD
+    - SwiftCoroutine
+
+SPEC CHECKSUMS:
+  PKHUD: 98f3e4bc904b9c916f1c5bb6d765365b5357291b
+  SwiftCoroutine: b584780401083a0c41323ef1af07c2effe369dce
+
+PODFILE CHECKSUM: bfc64ff3f6d2e1dc48e49e5a298f47b44faf30bf
+
+COCOAPODS: 1.11.3

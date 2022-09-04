@@ -1,0 +1,6 @@
+framework module SwiftCoroutine {
+  umbrella header "SwiftCoroutine-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		795BA6E94E1FB6E061DD2D4A /* Pods_Renda10min.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05F93BEC0A70501E45ABE84D /* Pods_Renda10min.framework */; };
 		A055B40F28BF42070066EB73 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055B40E28BF42070066EB73 /* AppDelegate.swift */; };
 		A055B41128BF42070066EB73 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055B41028BF42070066EB73 /* SceneDelegate.swift */; };
 		A055B41328BF42070066EB73 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A055B41228BF42070066EB73 /* ViewController.swift */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		05F93BEC0A70501E45ABE84D /* Pods_Renda10min.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Renda10min.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4EE0D874F441D57BA958BD06 /* Pods-Renda10min.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Renda10min.release.xcconfig"; path = "Target Support Files/Pods-Renda10min/Pods-Renda10min.release.xcconfig"; sourceTree = "<group>"; };
 		A055B40B28BF42070066EB73 /* Renda10min.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Renda10min.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A055B40E28BF42070066EB73 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A055B41028BF42070066EB73 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		A055B41728BF42080066EB73 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A055B41A28BF42080066EB73 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A055B41C28BF42080066EB73 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFA4B985B5869DB45DBAD29B /* Pods-Renda10min.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Renda10min.debug.xcconfig"; path = "Target Support Files/Pods-Renda10min/Pods-Renda10min.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +35,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795BA6E94E1FB6E061DD2D4A /* Pods_Renda10min.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		706A395468D5821C18AFBC19 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FFA4B985B5869DB45DBAD29B /* Pods-Renda10min.debug.xcconfig */,
+				4EE0D874F441D57BA958BD06 /* Pods-Renda10min.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		968D9C28CAFA7E5912BB3206 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05F93BEC0A70501E45ABE84D /* Pods_Renda10min.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A055B40228BF42070066EB73 = {
 			isa = PBXGroup;
 			children = (
 				A055B40D28BF42070066EB73 /* Renda10min */,
 				A055B40C28BF42070066EB73 /* Products */,
+				706A395468D5821C18AFBC19 /* Pods */,
+				968D9C28CAFA7E5912BB3206 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -74,9 +99,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A055B41F28BF42080066EB73 /* Build configuration list for PBXNativeTarget "Renda10min" */;
 			buildPhases = (
+				C20BE19873AF6A570F3057E3 /* [CP] Check Pods Manifest.lock */,
 				A055B40728BF42070066EB73 /* Sources */,
 				A055B40828BF42070066EB73 /* Frameworks */,
 				A055B40928BF42070066EB73 /* Resources */,
+				2EAD0DAA5F87457BECEDE8AC /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,6 +159,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EAD0DAA5F87457BECEDE8AC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Renda10min/Pods-Renda10min-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Renda10min/Pods-Renda10min-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Renda10min/Pods-Renda10min-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C20BE19873AF6A570F3057E3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Renda10min-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		A055B40728BF42070066EB73 /* Sources */ = {
@@ -282,6 +351,7 @@
 		};
 		A055B42028BF42080066EB73 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FFA4B985B5869DB45DBAD29B /* Pods-Renda10min.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -309,6 +379,7 @@
 		};
 		A055B42128BF42080066EB73 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EE0D874F441D57BA958BD06 /* Pods-Renda10min.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
